@@ -1,13 +1,13 @@
 # Small demo for basic ansible usage
 
 1. Install ansible itself:
-sude dnf install ansible
+`sude dnf install ansible`
 
-2. Ensure your public ssh keys are on the managed servers:
-ssh-copy-id root@managed.server
+2. Ensure your public ssh keys are on the managed servers (NOTE check if you generated your ssh key pair before via `ssh-keygen`):
+`ssh-copy-id root@managed.server`
 
 3. Create `/etc/ansible/hosts` file and fill with:
-managed.server ansible_ssh_user=root
+`managed.server ansible_ssh_user=root`
 
 4. Prepare your playbook file (`certbot.yml`) by placing following content:
 ---

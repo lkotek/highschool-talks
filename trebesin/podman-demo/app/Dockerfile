@@ -1,4 +1,5 @@
-FROM python:3.11 # See https://index.docker.io/_/python
+# See https://index.docker.io/_/python
+FROM python:3
 WORKDIR /usr/src/app
 COPY . .
 RUN pip install --no-cache-dir --upgrade pip && \
