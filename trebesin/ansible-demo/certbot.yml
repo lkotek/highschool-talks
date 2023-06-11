@@ -8,7 +8,7 @@
       state: installed
   - name: Renew all web certifites
     ansible.builtin.command:
-      cmd: certbot renew --non-interactive --agree-tos --dry-run
+      cmd: certbot renew --non-interactive --agree-tos
   - name: Restart nginx server
     ansible.builtin.service:
       name: nginx 

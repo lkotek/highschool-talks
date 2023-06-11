@@ -25,5 +25,5 @@
 9. Learn more abour podman and docker: https://podman.io/getting-started/
 
 10. Check existing images in registers:
-   - https://index.docker.io/
+   - https://hub.docker.com/
    - https://registry.fedoraproject.org/
